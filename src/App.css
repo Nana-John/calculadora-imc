@@ -1,3 +1,70 @@
+
+/* Estilo Geral */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fff0; /* Fundo verde claro para tema nutricional */
+  color: #333;
+}
+
+h1 {
+  color: #5aa469; /* Verde escuro para destacar o título */
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #a8d5ba; /* Borda verde suave */
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #5aa469; /* Destaque ao focar */
+}
+
+button {
+  background-color: #5aa469; /* Botão verde escuro */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #469b5a; /* Verde mais escuro no hover */
+}
+
+div {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #5aa469;
+}
+
+p {
+  font-weight: bold;
+  color: #469b5a;
+}
+
+/* Caixa de resultado */
+.resultado {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #a8d5ba;
+  border-radius: 10px;
+  background-color: #e0ffe8; /* Verde suave no fundo */
+}
+
+
 .App {
   text-align: center;
 }
